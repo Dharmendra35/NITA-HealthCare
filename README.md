@@ -1,4 +1,4 @@
-# Doctor Booking Appointment System
+# NITA HealthCare
 
 Frontend URI: https://doctor-booking-appointment-system.vercel.app/
 Backend URI: https://doctor-booking-appointment-system-backend.onrender.com
