@@ -36,16 +36,17 @@ All the above functionalities are supported by the backend code. The backend han
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/devyadav-00/doctor-booking-appointment-system.git
+   ```
 2. Navigate to the Project Directory:
    cd doctor-booking-appointment-system
-   
+
 3.Install Dependencies:
-  npm install
-  
+npm install
+
 4.Set Up Environment Variables:
 
-  Create a .env file in the root directory.
-  Add necessary environment variables for database connection, API keys, etc.
+Create a .env file in the root directory.
+Add necessary environment variables for database connection, API keys, etc.
 
 5.Run the Backend Server:
 cd backend
