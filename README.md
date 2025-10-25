@@ -35,7 +35,7 @@ All the above functionalities are supported by the backend code. The backend han
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/devyadav-00/doctor-booking-appointment-system.git
+   git clone https://github.com/Dharmendra35/NITA-HealthCare.git
    ```
 2. Navigate to the Project Directory:
    cd doctor-booking-appointment-system
