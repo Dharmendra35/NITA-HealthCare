@@ -36,7 +36,7 @@ export const patientRegister = catchAsyncErrors(async (req, res, next) => {
     password,
     role: "Patient",
   });
-  generateToken(user, "User Registered!", 200, res);
+  generateToken(user, "User Registered Successfully!", 200, res);
 });
 
 export const login = catchAsyncErrors(async (req, res, next) => {
@@ -202,7 +202,7 @@ export const logoutAdmin = catchAsyncErrors(async (req, res, next) => {
       httpOnly: true,
       expires: new Date(Date.now()),
       secure: true,
-      sameSite:"None"
+      sameSite: "None",
     })
     .json({
       success: true,
@@ -218,7 +218,7 @@ export const logoutPatient = catchAsyncErrors(async (req, res, next) => {
       httpOnly: true,
       expires: new Date(Date.now()),
       secure: true,
-      sameSite:"None"
+      sameSite: "None",
     })
     .json({
       success: true,
