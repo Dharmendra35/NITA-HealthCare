@@ -103,6 +103,7 @@ export const addNewAdmin = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
+//to add a new doctor
 export const addNewDoctor = catchAsyncErrors(async (req, res, next) => {
   if (!req.files || Object.keys(req.files).length === 0) {
     return next(new ErrorHandler("Doctor Avatar Required!", 400));
