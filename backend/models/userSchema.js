@@ -38,7 +38,7 @@ const userSchema = new mongoose.Schema({
   gender: {
     type: String,
     required: [true, "Gender Is Required!"],
-    enum: ["Male", "Female"],
+    enum: ["Male", "Female", "others"],
   },
   password: {
     type: String,
@@ -79,8 +79,8 @@ userSchema.methods.generateJsonWebToken = function () {
     process.env.JWT_SECRET_KEY,
     {
       expiresIn: process.env.JWT_EXPIRES,
-    }
-  )
+    },
+  );
 };
 
 export const User = mongoose.model("User", userSchema);
