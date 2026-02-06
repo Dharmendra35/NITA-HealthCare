@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Plus icon for healthcare -->
+  <defs>
+    <style>
+      .plus-icon { fill: #2563eb; }
+    </style>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#e0f2fe" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Horizontal bar -->
+  <rect x="25" y="45" width="50" height="10" rx="5" class="plus-icon"/>
+  
+  <!-- Vertical bar -->
+  <rect x="45" y="25" width="10" height="50" rx="5" class="plus-icon"/>
+</svg>
